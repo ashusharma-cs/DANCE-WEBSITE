@@ -1,0 +1,48 @@
+
+doctype html
+html
+    head
+        style
+            include ../static/style.css
+        
+    body
+        nav#navbar
+            ul
+                li #[a(href="/") HOME]
+                li #[a(href="/") ABOUT US]
+                li #[a(href="/contact") CONTACT ]
+                li #[a(href="/") SERVICES ]
+        
+        section#intro
+            div WELCOME TO PROFESSIONAL DANCE ACADEMY.
+            div EAT SLEEP DANCE REPEAT.
+        section#mission
+            h3 OUR MISSION
+            .card-holder
+                .card
+                    h3 DANCE PERFECTION.   
+                    .card-img
+                        img(src="../static/img/1.png", alt="")
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, numquam!
+                        
+                .card
+                    h3 DANCE THE WAY YOU LIKE.
+                    .card-img
+                        img(src="../static/img/2.png", alt="")
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, numquam!
+                .card
+                    h3 EXPERT TEACHING.
+                    .card-img
+                        img(src="../static/img/3.png", alt="")
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, numquam!
+        section#sponsor
+            h3 OUR SPONSORS
+            .s-box
+                img(src="../static/img/logo1.png", alt="")
+                img(src="../static/img/logo2.png", alt="")
+                img(src="../static/img/logo3.png", alt="")
+                img(src="../static/img/logo4.png", alt="")
+
+        
+        footer#footer   
+            | DANCEWEB.COM ALL RIGHTS RESERVED

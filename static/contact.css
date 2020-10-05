@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+/* navbar */
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#navbar{
+    position: relative;
+}
+#navbar li{
+    list-style: none;
+    margin: 12px;
+
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+/* section-contact */
+#contact{
+    height: 80vh;
+ 
+
+}
+#contact h1{
+    text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#form input{
+    width: 40%;
+    border: 2px solid lightcoral;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 12px;
+    outline: none;
+    box-shadow: 5px 5px 5px brown;
+}
+#form textarea{
+    width: 40%;
+    border: 2px solid lightcoral;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 12px;
+    outline: none;
+    box-shadow: 5px 5px 5px brown;
+}
+#form .btn{
+    width: 30%;
+    border: 2px solid lightcoral;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 12px;
+    outline: none;
+    box-shadow: 5px 5px 5px brown;
+    cursor: pointer;
+
+}
+/* footer */
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    outline-color: white;
+    font-size: 20px;
+}

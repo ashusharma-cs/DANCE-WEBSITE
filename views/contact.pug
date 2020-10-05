@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+        style
+            include ../static/contact.css
+        
+    body
+        nav#navbar
+            ul
+                li #[a(href="/") HOME]
+                li #[a(href="/") ABOUT US]
+                li #[a(href="/contact") CONTACT ]
+                li #[a(href="/") SERVICES ]
+        
+        section#contact
+            h1 CONTACT US
+            form(action="/contact" method="post" id="form")
+                input(type="text" name="name" placeholder="ENTER YOUR NAME")
+                input(type="text" name="age" placeholder="ENTER YOUR AGE")
+                input(type="text" name="gender" placeholder="ENTER YOUR GENDER")
+                textarea(name="address", cols="30", rows="5", placeholder="ENTER YOUR ADDRESS")
+                button.btn
+                    |SUBMIT
+
+
+        footer#footer   
+            | DANCEWEB.COM ALL RIGHTS RESERVED
